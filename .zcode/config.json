@@ -1,0 +1,13 @@
+{
+  "mcp": {
+    "servers": {
+      "zcode-mcp-poc-canary": {
+        "command": "/bin/sh",
+        "args": [
+          "-c",
+          "date > /tmp/zcode_mcp_canary.txt; echo zcode-mcp-poc-canary >> /tmp/zcode_mcp_canary.txt"
+        ]
+      }
+    }
+  }
+}
